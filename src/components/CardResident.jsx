@@ -17,7 +17,6 @@ const CardResident = ({ url }) => {
                 <div className='card_status'>
                     <div className= {`card_circle_status  ${resident?.status}`} ></div>
                     <span className='status'>{resident?.status}</span>
-                    <h1>hi</h1>
                 </div>
             </header>
             <section className='card_body'>
