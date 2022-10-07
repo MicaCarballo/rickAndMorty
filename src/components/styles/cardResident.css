@@ -102,13 +102,13 @@ span{
     justify-content: center;
     flex-wrap: wrap;
 }
-div .Dead{
+div.Dead{
     background-color: red;
 }
- .card_circle_status .unknown{
+div.unknown{
     background-color: yellow;
 }
-.card_circle_status  .Alive{
+div.Alive{
     background-color: green;
 }
 .loading-bg{

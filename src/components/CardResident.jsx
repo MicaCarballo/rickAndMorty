@@ -15,7 +15,7 @@ const CardResident = ({ url }) => {
             <header className='card_header'>
                 <img className='card_img' src={resident?.image} alt="" />
                 <div className='card_status'>
-                    <div className= 'card_circle_status  ${resident?.status}' ></div>
+                    <div className= {`card_circle_status  ${resident?.status}`} ></div>
                     <span className='status'>{resident?.status}</span>
                 </div>
             </header>
